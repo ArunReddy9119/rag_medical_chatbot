@@ -1,20 +1,15 @@
-# README: Setting Up Your Environment with Pipenv
+# README: Setting Up Your Environment with conda
+conda create -n medical-chatbot python=3.10
 
-## Prerequisite: Install Pipenv
-Follow the official Pipenv installation guide to set up Pipenv on your system:  
-[Install Pipenv Documentation](https://pipenv.pypa.io/en/latest/installation.html)
-
----
 
 ## Steps to Set Up the Environment
+conda activate medical-chatbot
+
 
 ### Install Required Packages
-Run the following commands in your terminal (assuming Pipenv is already installed):
+Run the following commands in your terminal:
+pip install -r requirements.txt
 
-```bash
-pipenv install langchain langchain_community langchain_huggingface faiss-cpu pypdf
-pipenv install huggingface_hub
-pipenv install streamlit
-
-
+##  create your own .env file 
+ replace HF_TOKEN  with your own hugging face token
 
