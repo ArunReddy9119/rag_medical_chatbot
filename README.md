@@ -11,5 +11,5 @@ Run the following commands in your terminal:
 pip install -r requirements.txt
 
 ##  create your own .env file 
- replace HF_TOKEN  with your own hugging face token
+## replace HF_TOKEN  with your own hugging face token
 
